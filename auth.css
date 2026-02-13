@@ -1,0 +1,56 @@
+.auth {
+    padding: 80px 20px;
+    background: #f9fafb;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.form-box h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.form-box input:focus {
+    outline: none;
+    border-color: #6366f1;
+}
+
+.form-box .btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.switch-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.switch-text a {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.switch-text a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* LOGIN PAGE */
+.login-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f5f9;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.login-box button {
+    padding: 10px 20px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* DASHBOARD LAYOUT */
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 220px;
+    background: #f7f7f7;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.sidebar li.active,
+.sidebar li:hover {
+    background: #e0e0e0;
+}
+
+/* CENTER TASK SECTION */
+.task-section {
+    flex: 1;
+    padding: 30px;
+    background: #fafafa;
+}
+
+.task-header {
+    margin-bottom: 20px;
+}
+
+.add-task {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.add-task input {
+    flex: 1;
+    padding: 10px;
+}
+
+.add-task button {
+    padding: 10px 15px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* TASK LIST */
+#taskList {
+    list-style: none;
+}
+
+#taskList li {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* RIGHT DETAILS */
+.details-section {
+    width: 300px;
+    background: white;
+    padding: 30px;
+    border-left: 1px solid #ddd;
+}

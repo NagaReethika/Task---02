@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - To Do List App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+
+<header>
+    <div class="container nav-container">
+        <div class="logo">ToDoApp</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="auth">
+    <div class="form-box">
+        <h2>Create Account</h2>
+
+        <form id="registerForm">
+            
+            
+            <input type="text" id="regname" placeholder="Full Name" required>
+            <input type="email" id="regEmail" placeholder="Email Address" required>
+            <input type="password" id="regPassword" placeholder="Password" required>
+            <input type="password" id="regPassword" placeholder="Confirm Password" required>
+            
+        </form>
+            <button type="submit" class="btn">Register</button>
+        </form>
+
+        <p class="switch-text">
+            Already have an account?
+            <a href="login.html">Login here</a>
+        </p>
+    </div>
+</section>
+
+<script src="auth.js"></script>
+
+</body>
+</html>
